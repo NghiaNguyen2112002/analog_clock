@@ -105,20 +105,7 @@ int main(void)
 	  if(counter > 11) counter = 0;
 	  GPIOA->BSRR = clockNumber[counter++];
 	  HAL_Delay(500);
-//	  if(sec >= 60){
-//		  sec = 0;
-//		  min += 5;
-//	  }
-//	  if(min >= 60){
-//		  min = 0;
-//		  hour += 1;
-//	  }
-//	  if(hour >= 12){
-//		  hour = min = sec = 0;
-//	  }
-//	  DisplayClock(hour, min, sec);
-//	  sec += 5;
-//	  HAL_Delay(1000);
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
